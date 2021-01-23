@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-color: #767981;
+    font-family: sans-serif;
+}
+
+td {
+    background-color: hsl(0, 0%, 86%);
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+table {
+    background-color: #2d3142;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#resetGame {
+    background-color: #595A64;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#resetGame:hover {
+    background-color: #4A4C59;
+}
+
+#resetGame:active {
+    background-color: #58565c;
+}
+
+#score {
+    font-size: 2em;
+}
+
+#winOrOver {
+    font-size: 2em;
+    color: #dafeb7;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>2048 Game</title>
+        
+    </head>
+
+    <body>    
+        <h1>2048 Game</h1>
+        <h2>By Tommy Tran</h2>
+
+        <p id="score">Score: </p>
+        <button id="resetGame">Reset Game</button>
+
+        <p id="winOrOver"></p>
+
+        <table align="center">
+            <tbody>
+                <tr>
+                    <td id="tile0"></td>
+                    <td id="tile1"></td>
+                    <td id="tile2"></td>
+                    <td id="tile3"></td>
+                </tr>
+                <tr>
+                    <td id="tile4"></td>
+                    <td id="tile5"></td>
+                    <td id="tile6"></td>
+                    <td id="tile7"></td>
+                </tr>
+                <tr>
+                    <td id="tile8"></td>
+                    <td id="tile9"></td>
+                    <td id="tile10"></td>
+                    <td id="tile11"></td>
+                </tr>
+                <tr>
+                    <td id="tile12"></td>
+                    <td id="tile13"></td>
+                    <td id="tile14"></td>
+                    <td id="tile15"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Use the arrow keys on your keyboard to move the tiles. When two numbers are the same and you move them into each other, they will merge and become the combined sum of the two. Reach 2048 to win!</h2>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="render.js" type="module"></script>
+    </body>
+</html>
